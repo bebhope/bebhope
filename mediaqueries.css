@@ -3,11 +3,16 @@
         display: none;
     }
 
+    .navbar #logo {
+        order: 0;
+    }
+
     .navbar ul {
         display: flex;
         flex-direction: row;
         position: static;
         background-color: transparent;
+        order: 0;
     }
 
     .navbar ul li {
@@ -26,6 +31,11 @@
         cursor: pointer;
         font-size: 24px;
         color: #000;
+        order: 1;
+    }
+
+    .navbar #logo {
+        order: 0;
     }
 
     .navbar ul {
