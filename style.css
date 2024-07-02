@@ -332,14 +332,14 @@ body {
 }
 
 .galleria {
-    padding: 0;
+    padding: 0 50px;
     background-color: #fff;
 }
 
 .container-images {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .wrapper {
